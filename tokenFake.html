@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<!--
+<head>
+    <title>Número aleatório</title>
+</head>
+
+<body>
+
+    <button onclick="gerarNumero()">Crie seu usuario</button>
+    <p id="numeroGerado"></p>
+
+
+    <script>
+        function gerarNumero() {
+            const numeroAleatorio = Math.floor(Math.random() * (10000));
+            document.getElementById("numeroGerado").textContent = numeroAleatorio;
+        }
+    </script>
+
+
+</body>
+
+<!--fim primeiro html
+
+
+<!DOCTYPE HTML>
+<!--inicio segundo html
+
+<head>
+    <title>
+        Alert Box vs Prompt Box
+    </title>
+</head>
+
+<body style="text-align:center;" id="body">
+
+    <h1 style="color:green;">
+        GeeksforGeeks
+    </h1>
+
+    <button onclick="alertBox()">
+        Show Alert Box
+    </button>
+    <button onclick="promptBox()">
+        Show Prompt Box
+    </button>
+
+    <script>
+        function alertBox() {
+            alert("GeeksforGeeks: This" +
+                " is an Alert Box.");
+        }
+
+        function promptBox() {
+            prompt("Enter your Name:");
+        }
+
+        function gerarNumero() {
+            const numeroAleatorio = Math.floor(Math.random() * (10000));
+            document.getElementById("numeroGerado").textContent = numeroAleatorio;
+        }
+    </script>
+    <div class="usuario">
+
+    </div>
+</body>
+
+<!--fim segundo html
+-->
+<!--inicio terceiro html-->
+
+<head>
+    <title>
+        JavaScript prompt() method
+    </title>
+
+    <script>
+        
+        function fun() {
+            var a = prompt("seu nome");
+            const numeroAleatorio = Math.floor(Math.random() * (10000));
+            if (a != null) {
+                document.getElementById("para").innerHTML = a +"  #"+ numeroAleatorio;
+            }
+        }
+
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <h1 style="color: red;">
+        Coloque seu Nick</h1>
+    
+    <button onclick="fun()">
+        Clique aqui
+    </button>
+    <p id="para"></p>
+
+</body>
+</html>
